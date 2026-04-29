@@ -1,0 +1,18 @@
+{
+  "BigQuery Schema": [
+    { "name": "id", "type": "STRING" },
+    { "name": "rank", "type": "STRING" },
+    { "name": "name", "type": "STRING" },
+    { "name": "country", "type": "STRING" },
+    { "name": "career_span", "type": "STRING" },
+    { "name": "innings", "type": "STRING" },
+    { "name": "matches", "type": "STRING" },
+    { "name": "runs", "type": "STRING" },
+    { "name": "avg", "type": "FLOAT" },
+    { "name": "sr", "type": "FLOAT" },
+    { "name": "highestScore", "type": "STRING" },
+    { "name": "hundreds", "type": "STRING" },
+    { "name": "fifties", "type": "STRING" }
+  ]
+}
+
