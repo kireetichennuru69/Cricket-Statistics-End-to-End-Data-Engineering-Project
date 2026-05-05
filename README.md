@@ -125,11 +125,11 @@ The Looker Studio dashboard provides **player performance, consistency, and coun
 
 ## ▶️ How to Run
 
-### Prerequisites
+### ⚙️ Prerequisites
 
-* Google Cloud account
-* Airflow setup (Create a managed airflow environment)
-* Python 3.11x
+- ☁️ **Google Cloud account**  
+- ⏱️ **Apache Airflow setup** (Managed environment recommended - Cloud Composer or Docker setup)  
+- 🐍 **Python 3.11+**
 
 ### Steps
 
