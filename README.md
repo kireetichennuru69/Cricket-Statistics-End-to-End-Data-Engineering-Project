@@ -146,13 +146,65 @@ cd cricket-stat-data-engineering-project
 pip install -r requirements.txt
 ```
 
-3. Configure GCP credentials
+3️⃣ Configure Google Cloud
+☁️ Set up GCP credentials (Service Account)
+🔐 Enable required services:
+Cloud Storage
+BigQuery
+Dataflow
+Cloud Functions
+📁 Create a GCS bucket for raw data storage
 
-4. Run Airflow DAG
+---
 
-5. Validate data in BigQuery
+4️⃣ Data Extraction (Python Scraper)
+🐍 Run the extraction script to scrape cricket data from ESPN Cricinfo
+📤 Upload extracted data to Google Cloud Storage (GCS)
 
-6. Connect Looker Studio dashboard
+---
+
+5️⃣ Orchestration using Apache Airflow
+⏱️ Deploy and configure your Airflow DAG
+
+---
+
+▶️ Trigger the DAG to automate:
+Data extraction
+Data upload to GCS
+Pipeline execution
+
+---
+
+6️⃣ Cloud Function Trigger
+⚡ A Cloud Function is triggered when new data is uploaded to GCS
+🚀 It initiates the Dataflow job
+
+---
+
+7️⃣ Data Transformation using Dataflow
+🔄 Process raw data using Dataflow
+🧹 Clean, transform, and structure data for analytics
+
+---
+
+8️⃣ Load Data into BigQuery
+- 🧠 Load transformed data into BigQuery tables
+- 📊 Validate data using SQL queries
+
+---
+
+9️⃣ Connect Looker Studio Dashboard
+- 📊 Connect Looker Studio to BigQuery
+- 📈 Build dashboard with key insights:
+  - Player consistency
+  - Runs vs Strike Rate
+  - Country performance
+
+---
+
+🔟 Validate End-to-End Pipeline
+- ✅ Ensure smooth data flow from extraction → visualization
+- 🔄 Verify automated pipeline via Airflow scheduling
 
 ---
 
