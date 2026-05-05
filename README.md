@@ -147,43 +147,43 @@ pip install -r requirements.txt
 ```
 
 3️⃣ Configure Google Cloud
-☁️ Set up GCP credentials (Service Account)
-🔐 Enable required services:
-Cloud Storage
-BigQuery
-Dataflow
-Cloud Functions
-📁 Create a GCS bucket for raw data storage
+- ☁️ Set up GCP credentials (Service Account)
+- 🔐 Enable required services:
+  - Cloud Storage
+  - BigQuery
+  - Dataflow
+  - Cloud Functions
+- 📁 Create a GCS bucket for raw data storage
 
 ---
 
 4️⃣ Data Extraction (Python Scraper)
-🐍 Run the extraction script to scrape cricket data from ESPN Cricinfo
-📤 Upload extracted data to Google Cloud Storage (GCS)
+- 🐍 Run the extraction script to scrape cricket data from ESPN Cricinfo
+- 📤 Upload extracted data to Google Cloud Storage (GCS)
 
 ---
 
 5️⃣ Orchestration using Apache Airflow
-⏱️ Deploy and configure your Airflow DAG
+- ⏱️ Deploy and configure your Airflow DAG
 
 ---
 
 ▶️ Trigger the DAG to automate:
-Data extraction
-Data upload to GCS
-Pipeline execution
+- Data extraction
+- Data upload to GCS
+- Pipeline execution
 
 ---
 
 6️⃣ Cloud Function Trigger
-⚡ A Cloud Function is triggered when new data is uploaded to GCS
-🚀 It initiates the Dataflow job
+- ⚡ A Cloud Function is triggered when new data is uploaded to GCS
+- 🚀 It initiates the Dataflow job
 
 ---
 
 7️⃣ Data Transformation using Dataflow
-🔄 Process raw data using Dataflow
-🧹 Clean, transform, and structure data for analytics
+- 🔄 Process raw data using Dataflow
+- 🧹 Clean, transform, and structure data for analytics
 
 ---
 
@@ -230,7 +230,6 @@ Pipeline execution
 
 Inspired by the work of Vishal Bulbule
 
-* GitHub: https://github.com/vishal-bulbule/cricket-stat-data-engineering-project
 * YouTube: https://youtu.be/UXJxcWgxwu0
 
 ---
