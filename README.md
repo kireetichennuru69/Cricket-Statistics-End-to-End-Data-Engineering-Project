@@ -24,13 +24,13 @@ Cricket statistics are complex and constantly changing. This project simulates a
 
 ---
 
-### Key questions answered:
+## 🎯 Key Questions Answered
 
-* Which players are performing consistently?
-* How do players compare in terms of performance vs strike rate?
-* Which countries contribute the most runs?
-* What are the latest statistics available for reporting?
-* How can cricket data be refreshed automatically?
+- 👤 **Which players are performing consistently?**  
+- ⚖️ **How do players compare in terms of performance vs strike rate?**  
+- 🌍 **Which countries contribute the most runs?**  
+- 📊 **What are the latest statistics available for reporting?**  
+- 🔄 **How can cricket data be refreshed automatically?**
 
 ---
 
@@ -41,15 +41,15 @@ Cricket statistics are complex and constantly changing. This project simulates a
 ---
 
 
-### Pipeline Flow
+## ⚙️ Pipeline Flow
 
-1. Data is extracted using **Python web scraping (ESPN Cricinfo)**
-2. **Apache Airflow** orchestrates the workflow
-3. Data is stored in **Google Cloud Storage**
-4. **Cloud Functions** trigger processing
-5. **Dataflow** transforms the data
-6. Data is loaded into **BigQuery**
-7. **Looker Studio** visualizes insights
+1. 🐍 **Data is extracted using Python web scraping (ESPN Cricinfo)**  
+2. ⏱️ **Apache Airflow orchestrates the workflow**  
+3. ☁️ **Data is stored in Google Cloud Storage**  
+4. ⚡ **Cloud Functions trigger processing**  
+5. 🔄 **Dataflow transforms the data**  
+6. 🧠 **Data is loaded into BigQuery**  
+7. 📊 **Looker Studio visualizes insights**
 
 ---
 
