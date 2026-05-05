@@ -68,7 +68,7 @@ Cricket statistics are complex and constantly changing. This project simulates a
 
 ## 📊 Dashboard Overview
 
-<img width="6250" height="7029" alt="Cricket_Statistics_Project" src="https://github.com/user-attachments/assets/fba878ae-a157-4ecf-b9e8-f3afd00e7922" />
+<img width="6250" height="7029" alt="Cricket_Statistics_Project" src="https://github.com/user-attachments/assets/6a12c291-2178-459c-b8a5-2adbc18aa6e2" />
 
 The Looker Studio dashboard provides **player performance, consistency, and country-level insights**.
 
