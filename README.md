@@ -91,7 +91,7 @@ The Looker Studio dashboard provides **player performance, consistency, and coun
 * **Top 10 Players by Consistency Score**
 * **Runs vs Strike Rate (Scatter Plot)** → performance vs efficiency
 * **Runs by Country (Bar Chart)** → country comparison
-* **Country Contribution (Treemap)** → hierarchical distribution
+* **Country -> Matches (Treemap)** → hierarchical distribution
 * **Avg Runs Distribution by Country (Pie Chart)**
 * **Conversion Efficiency by Player (Bar Chart)**
 
