@@ -217,15 +217,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Future Enhancements
-
-* Add **historical data (snapshot_date)** for trend analysis
-* Introduce **data quality validation checks**
-* Implement **incremental data loads**
-* Add **CI/CD pipeline for deployment**
-
----
-
 ## 🙌 Credits
 
 Inspired by the work of Vishal Bulbule
