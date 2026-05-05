@@ -18,15 +18,11 @@ The focus is on building **analytics-ready datasets and meaningful KPIs**, not j
 
 ---
 
-## Architecture Diagram
-
-<img width="2513" height="2063" alt="Cricket Statistics Project" src="https://github.com/user-attachments/assets/aad25010-8bb2-41f5-9cb9-c60039e0a763" />
-
-
 ## 🎯 Business Use Case
 
 Cricket statistics are complex and constantly changing. This project simulates a real-world analytics system where raw player data is transformed into **decision-ready insights**.
 
+---
 
 ### Key questions answered:
 
@@ -40,7 +36,7 @@ Cricket statistics are complex and constantly changing. This project simulates a
 
 ## 🏗️ Architecture
 
-![Architecture](assets/cricket-statistics-architecture.png)
+<img width="2513" height="2063" alt="Cricket Statistics Project" src="https://github.com/user-attachments/assets/aad25010-8bb2-41f5-9cb9-c60039e0a763" />
 
 ### Pipeline Flow
 
