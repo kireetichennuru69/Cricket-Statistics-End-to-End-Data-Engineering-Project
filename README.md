@@ -16,7 +16,7 @@ It extracts cricket statistics via **Python-based web scraping (ESPN Cricinfo)**
 
 The focus is on building **analytics-ready datasets and meaningful KPIs**, not just raw data ingestion.
 
----
+
 
 ## Architecture Diagram
 
