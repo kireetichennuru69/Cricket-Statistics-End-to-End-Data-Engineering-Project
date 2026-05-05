@@ -38,6 +38,9 @@ Cricket statistics are complex and constantly changing. This project simulates a
 
 <img width="2513" height="2063" alt="Cricket Statistics Project" src="https://github.com/user-attachments/assets/aad25010-8bb2-41f5-9cb9-c60039e0a763" />
 
+---
+
+
 ### Pipeline Flow
 
 1. Data is extracted using **Python web scraping (ESPN Cricinfo)**
@@ -65,9 +68,12 @@ Cricket statistics are complex and constantly changing. This project simulates a
 
 ## 📊 Dashboard Overview
 
-![Dashboard](assets/dashboard.png)
+<img width="6250" height="7029" alt="Cricket_Statistics_Project" src="https://github.com/user-attachments/assets/da3ad675-d81b-4458-a49a-dc358bdc5277" />
 
 The Looker Studio dashboard provides **player performance, consistency, and country-level insights**.
+
+---
+
 
 ### 🔢 KPI Metrics
 
