@@ -22,7 +22,6 @@ SELECT
   CAST(id AS INT64) AS id,
   CAST(rank AS INT64) AS rank,
   name as player_name,
-  -- ✅ Robust country extraction (NULL-safe)
   COALESCE(
     (
       SELECT code
@@ -34,7 +33,6 @@ SELECT
     country_clean,
     'UNK' -- fallback for unknown
   ) AS country,
-  -- ✅ Career span safe handling
   CASE 
     WHEN REGEXP_CONTAINS(career_span, r'^\d{4}-\d{4}$') THEN
       SAFE_CAST(SPLIT(career_span, '-')[OFFSET(1)] AS INT64)
@@ -47,7 +45,6 @@ SELECT
   SAFE_CAST(avg AS FLOAT64) AS average_runs,
   SAFE_CAST(sr AS FLOAT64) AS strike_rate,
   SAFE_CAST(highestScore AS INT64) AS highest_score,
-  -- ✅ FIXED types
   SAFE_CAST(hundreds AS INT64) AS hundreds,
   SAFE_CAST(fifties AS INT64) AS fifties
 
