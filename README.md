@@ -108,7 +108,7 @@ The Looker Studio dashboard provides **player performance, consistency, and coun
 
 ## 📂 Repository Structure
 
-```text
+```
 ├── assets/
 │   ├── dashboard.png
 │   └── architecture.png
@@ -117,8 +117,7 @@ The Looker Studio dashboard provides **player performance, consistency, and coun
 ├── data/
 ├── requirements.txt
 └── README.md
-```text
-
+```
 ---
 
 ## ▶️ How to Run
