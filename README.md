@@ -42,13 +42,13 @@ Cricket statistics are constantly changing and often spread across multiple sour
 
 ## ⚙️ Pipeline Flow
 
-1. 🐍 Data is extracted using Python web scraping from **ESPN Cricinfo**
-2. ⏱️ **Apache Airflow** orchestrates the workflow
-3. ☁️ Data is stored in **Google Cloud Storage**
-4. ⚡ **Cloud Functions** trigger downstream processing
-5. 🔄 **Dataflow** transforms the data
-6. 🧠 Curated data is loaded into **BigQuery**
-7. 📊 **Looker Studio** visualizes the insights
+1. 🐍 Data is extracted using Python web scraping from **ESPN Cricinfo**.
+2. ⏱️ **Apache Airflow** orchestrates the workflow with a scheduled daily run.
+3. ☁️ Data is stored in **Google Cloud Storage**.
+4. ⚡ **Cloud Functions** automatically trigger downstream processing as soon as a new file lands in Cloud Storage.
+5. 🔄 **Dataflow** is triggered to process, transform, and load the data.
+6. 🧠 Curated data is loaded into **BigQuery**.
+7. 📊 **Looker Studio** visualizes the insights.
 
 ---
 
